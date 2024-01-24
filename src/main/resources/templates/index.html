@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holiday Checker</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+</head>
+<body>
+<h1>Holiday Checker</h1>
+
+<label for="singleDatePicker">Vælg en dato:</label>
+<input type="text" id="singleDatePicker" placeholder="Vælg dato" data-input>
+
+<button id="checkHolidayButton">Tjek om dagen er en helligdag</button>
+
+<label for="startDatePicker">Start dato:</label>
+<input type="text" id="startDatePicker" placeholder="Start dato" data-input>
+
+<label for="endDatePicker">Slut dato:</label>
+<input type="text" id="endDatePicker" placeholder="Slut dato" data-input>
+
+<button id="getNationalHolidaysButton">Få alle helligdage i en bestemt periode</button>
+
+<div id="result"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script src="script.js"></script>
+</body>
+</html>
